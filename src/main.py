@@ -3,6 +3,7 @@ from src.models import Inventory, Order
 from src import schemas
 from src import crud
 from fastapi import FastAPI, Depends
+from fastapi.responses import RedirectResponse
 
 Base.metadata.create_all(bind=engine)
 
@@ -128,3 +129,7 @@ def get_alerts(db=Depends(get_db)):
             })
 
     return alerts
+
+@app.get("/")
+def home():
+    return RedirectResponse(url="/docs")
