@@ -1,8 +1,7 @@
-from fastapi import FastAPI, Depends
-from database import engine, Base, SessionLocal
-from models import Inventory,Order
-import schemas
-import crud
+from src.database import engine, Base, SessionLocal
+from src.models import Inventory, Order
+from src import schemas
+from src import crud
 
 Base.metadata.create_all(bind=engine)
 
