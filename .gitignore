@@ -1,0 +1,12 @@
+.venv/
+venv/
+
+**pycache**/
+*.pyc
+
+orders.db
+
+.env
+
+.vscode/
+.idea/
