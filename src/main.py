@@ -2,7 +2,7 @@ from src.database import engine, Base, SessionLocal
 from src.models import Inventory, Order
 from src import schemas
 from src import crud
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
 
 Base.metadata.create_all(bind=engine)
 
