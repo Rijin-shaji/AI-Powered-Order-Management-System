@@ -1,4 +1,4 @@
-from models import Order, Inventory
+from src.models import Order, Inventory
 from datetime import datetime
 
 def create_order(db, order_data):
