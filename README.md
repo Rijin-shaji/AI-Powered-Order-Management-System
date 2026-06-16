@@ -4,7 +4,7 @@ An AI-assisted order management system for an eyewear brand that handles order l
 
 ## Features
 
-### Lens Inventory Management
+## Lens Inventory Management
 
 * Store lens inventory
 * Check lens availability during order creation
