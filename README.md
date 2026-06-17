@@ -22,7 +22,7 @@ An AI-assisted order management system for an eyewear brand that handles order l
 * Calculate remaining SLA time
 * Detect SLA breaches
 
-### AI Risk Prediction
+## AI Risk Prediction
 
 * Predict orders likely to miss SLA
 * Risk categories:
